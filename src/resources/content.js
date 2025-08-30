@@ -8,8 +8,8 @@ const person = {
   },
   role: "IT",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "PH/Nigeria", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  email: "heyxkoinophobe@gmail.com",
+  location: "Africa/Lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -30,7 +30,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/airdward",
   },
   {
     name: "LinkedIn",
@@ -90,8 +90,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        Michael is a Port Harcourt-based IT guy with a passion for transforming complex challenges
+        into simple, elegant digital solutions. His work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
     ),
