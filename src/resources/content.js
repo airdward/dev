@@ -6,8 +6,8 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "IT",
-  avatar: "/images/avatar.jpg",
+  role: "Computer Scientist",
+  avatar: "/images/potrait.jpg",
   email: "heyxkoinophobe@gmail.com",
   location: "Africa/Lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -58,13 +58,12 @@ const home = {
   headline: <>Building bridges between design and code</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">Myofascial Pain Brevard</strong></>,
+    href: "https://myofascialpainbrevard.com/",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Michael, a Web Designer @ PBSEO working on creating user experiences. After hours, I build my own projects.
     </>
   ),
 };
@@ -90,7 +89,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Michael is a Port Harcourt-based IT guy with a passion for transforming complex challenges
+        Port Harcourt-based Computer Scientist with a passion for transforming complex challenges
         into simple, elegant digital solutions. His work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
@@ -147,13 +146,10 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Federal University of Petroleum Resources",
+        description: <>Studied Computer Science.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      
     ],
   },
   technical: {
