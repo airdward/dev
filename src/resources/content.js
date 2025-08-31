@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Computer Scientist",
-  avatar: "/images/potrait.jpg",
+  avatar: "/images/avatar.jpg",
   email: "heyxkoinophobe@gmail.com",
   location: "Africa/Lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
@@ -32,16 +32,16 @@ const social = [
     icon: "github",
     link: "https://github.com/airdward",
   },
-  {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-  },
+  // {
+  //   name: "LinkedIn",
+  //   icon: "linkedin",
+  //   link: "https://www.linkedin.com/company/once-ui/",
+  // },
+  // {
+  //   name: "Threads",
+  //   icon: "threads",
+  //   link: "https://www.threads.com/@once_ui",
+  // },
   {
     name: "Email",
     icon: "email",
@@ -100,45 +100,85 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "PBSEO",
+        timeframe: "Dec 2024 - ",
+        role: "Web Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+           Bringing businesses online, word different platforms and technologies
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Built 15+ Websites and still counting, translating to more than a 50% uptick in sales and closing for clients.
           </>,
+          
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Ark Builders",
+        timeframe: "Sep 2023 - May 2024",
+        role: "Backend Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Worked on a SaaS platform for an NGO aiding farmers in developing countries,
+            adopted by over 10k users using Django (Python).
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Incorporated user feedback to deliver new functionalities, increasing
+            satisfaction and SLA by 15%.
+          </>,
+          <>
+            Improved debugging and testing processes, boosting user retention by 30%.
+          </>,
+          <>
+            Integrated multiple 3rd party APIs, reducing request times by over 1500ms.
+          </>,
+          <>
+            Accelerated SDLC from analysis to deployment, ensuring high-quality delivery.
           </>,
         ],
         images: [],
       },
+      {
+        company: "Magic Patterns",
+        timeframe: "Feb 2023 - Sep 2023",
+        role: "Open Source Contributor",
+        achievements: [
+          <>
+            Collaborated with designers and programmers to enhance frontend UX,
+            contributing to 1000+ GitHub stars.
+          </>,
+          <>
+            worked on documentation framework, improving UX by 17%.
+          </>,
+
+          <>
+            Authored technical articles published across platforms.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "New Horizons, Nigeria",
+        timeframe: "Mar 2021 - Sep 2021",
+        role: "Software Engineering Intern",
+        achievements: [
+          <>
+            Engineered responsive web solutions using HTML, CSS, and React.js,
+            boosting client reach by 30%.
+          </>,
+          <>
+            Created and managed online presence for small businesses, increasing
+            profits from online leads by 12%.
+          </>,
+          <>
+            Designed a business website for a cleaning firm, raising visibility from
+            0% to 50% via SEO optimization.
+          </>,
+        ],
+        images: [],
+      },
+
     ],
   },
   studies: {
@@ -147,9 +187,9 @@ const about = {
     institutions: [
       {
         name: "Federal University of Petroleum Resources",
-        description: <>Studied Computer Science.</>,
+        description: <>Computer Science.</>,
       },
-      
+
     ],
   },
   technical: {
@@ -160,33 +200,13 @@ const about = {
         title: "Figma",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
     ],
   },
