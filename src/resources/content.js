@@ -105,12 +105,12 @@ const about = {
         role: "Web Designer",
         achievements: [
           <>
-           Bringing businesses online, word different platforms and technologies
+            Bringing businesses online, word different platforms and technologies
           </>,
           <>
             Built 15+ Websites and still counting, translating to more than a 50% uptick in sales and closing for clients.
           </>,
-          
+
         ],
         images: [],
       },
@@ -193,21 +193,46 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
+        title: "Python & Django",
+        description: <>Backend development, APIs, Celery tasks, and scalable SaaS applications</>,
         images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
+        title: "JavaScript & TypeScript",
+        description: <>Frontend and backend development with strong typing for maintainable apps</>,
         images: [],
       },
+      {
+        title: "React.js & Next.js",
+        description: <>Modern frontend frameworks for dynamic, server-rendered, and static sites</>,
+        images: [],
+      },
+      {
+        title: "SQL & PostgreSQL",
+        description: <>Database design, querying, and optimization for reliable data storage</>,
+        images: [],
+      },
+      {
+        title: "Docker & Redis",
+        description: <>Containerization, caching, and performance optimization</>,
+        images: [],
+      },
+      {
+        title: "TailwindCSS",
+        description: <>Utility-first styling for rapid, responsive UI development</>,
+        images: [],
+      },
+      
+      {
+        title: "Git & Agile Tools",
+        description: <>Version control, collaboration, and project tracking with Jira</>,
+        images: [],
+      },
+
     ],
   },
 };
